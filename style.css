@@ -867,7 +867,7 @@
   
   .intro{
     text-align: center;
-    width: 70%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 2%;
@@ -1516,4 +1516,64 @@
 	opacity: .5;
 	width: 35px;
 	height: 35px;
+}
+
+
+.contact-msg{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact--s-page-paragraph{
+  padding-top: 10%;
+  padding-bottom: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 75%;
+}
+
+.heading{
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 1%;
+  margin-bottom: 0px;
+  border-radius: 5%;
+}
+
+.line{
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+@media(min-width:337px){
+  .contactpage-box{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  }
+}
+
+@media(min-width:1000px){
+  .contactpage-box{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  }
+}
+
+.contactpage-box{
+  margin-top: 10%;
+}
+
+.contact-table-on-page{
+  width: 98%;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
 }
